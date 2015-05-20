@@ -1,3 +1,4 @@
-## The Basics
-- [Introduction](Tutorials/Basics/Introduction.md)
-- [Your First Plugin](Tutorials/Basics/Your_First_Plugin.md)
+## Getting Started
+- [Introduction](Tutorials/Getting_Started/Introduction.md)
+- [Your First Plugin](Tutorials/Getting_Started/Your_First_Plugin.md)
+- [Commands](Tutorials/Getting_Started/Commands.md)
