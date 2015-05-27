@@ -11,7 +11,7 @@ The class that controls most of your plugin is commonly referred to as your main
 We make this class final because only one instance of your main class can exist. This instance is created by Bukkit and instantitaing your main class, or a subclass of your main class will result in an IllegalArgumentException.
 	
 ###onEnable() and onDisable()
-Almost every plugin uses these methods. The onEnable() method is essentially used in replacement of the main method of traditional Java programs. This method is in the JavaPlugin class and is invoked when your plugin is enabled. In contrast, the onDisable() method is invoked when your plugin is disabled.
+Almost every plugin uses these methods. The onEnable() method is essentially used in replacement of the main method of traditional Java programs. This method is in the JavaPlugin class and is invoked when your plugin is being enabled. In contrast, the onDisable() method is invoked when your plugin is being disabled.
 
 ###Logging To The Console
 Plugins can log messages to the console as well as the log file. Each plugin has a logger specific to that plugin. Here is an example using everything we have learned in this tutorial.
